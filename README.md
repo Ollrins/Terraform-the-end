@@ -1,6 +1,8 @@
 ### Итоговый проект модуля «Облачная инфраструктура. Terraform»
  <br>
-#### FastAPI-приложение
+ <p>
+  </p>
+FastAPI-приложение
 <br>
 <p align="center">
   <img src="screenshots/Bn1.png" alt="Скриншот облака яндкес с адресом" width="900"/>
