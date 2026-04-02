@@ -68,8 +68,9 @@ sudo chmod +x /opt/webapp/deploy.sh
 ```
 
 #### Добавление nginx и haproxy (reverse proxy)
+#### Создан конфиг haproxy
 ```bash
-# Создан конфиг haproxy
+
 sudo tee /opt/webapp/haproxy.cfg << 'EOF'
 global
   maxconn 1000
