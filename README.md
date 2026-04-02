@@ -47,7 +47,7 @@ sudo mkdir -p /opt/webapp
 
 #### Создан .env файл с параметрами подключения к Managed MySQL
 ```bash
-sudo tee /opt/webapp/.env << EOF
+sudo tee /opt/webapp/.env << 'EOF'
 DB_HOST=rc1a-hcmuktjkjsv1llcn.mdb.yandexcloud.net
 DB_PORT=3306
 DB_USER=app
@@ -129,7 +129,7 @@ EOF
 
 #### Создан compose.yml с тремя сервисами
 ```bash
-sudo tee /opt/webapp/compose.yml << 'EOF'
+sudo tee /opt/webapp/compose.yml << EOF
 services:
   webapp:
     image: cr.yandex/${REGISTRY_ID}/dev-oll:latest
