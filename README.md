@@ -56,17 +56,6 @@ DB_NAME=devoll
 EOF
 ```
 
-#### Скрипт деплоя
-```bash
-sudo tee /opt/webapp/deploy.sh << 'EOF'
-#!/bin/bash
-cd /opt/webapp
-docker compose pull
-docker compose up -d
-EOF
-sudo chmod +x /opt/webapp/deploy.sh
-```
-
 #### Добавление nginx и haproxy (reverse proxy)
 #### Создан конфиг haproxy
 ```bash
@@ -179,4 +168,15 @@ networks:
   webnet:
     driver: bridge
 EOF
+```
+
+#### Скрипт деплоя
+```bash
+sudo tee /opt/webapp/deploy.sh << 'EOF'
+#!/bin/bash
+cd /opt/webapp
+docker compose pull
+docker compose up -d
+EOF
+sudo chmod +x /opt/webapp/deploy.sh
 ```
