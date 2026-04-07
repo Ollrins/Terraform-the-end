@@ -5,9 +5,9 @@ FastAPI-приложение
   </p>
 <br>
 <p align="center">
-  <img src="screenshots/Bn1.png" alt="Скриншот облака яндкес с адресом" width="900"/>
+  <img src="screenshots/Bn1.png" alt="Скриншот облака яндекс с адресом" width="900"/>
   <br>
-  <em> Скриншот облака яндкес с адресом </em>
+  <em> Скриншот облака яндекс с адресом </em>
 </p>
 <p align="center">
   <img src="screenshots/Bn2.png" alt="Скриншот консоли вм с приложением" width="900"/>
@@ -96,7 +96,7 @@ server {
 }
 EOF
 ```
-#### Создан сновной конфиг nginx
+#### Создан основной конфиг nginx
 ```bash
 sudo tee /opt/webapp/nginx.conf << 'EOF'
 user  nginx;
