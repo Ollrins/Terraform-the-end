@@ -20,7 +20,7 @@ FastAPI-приложение
   <em> Скриншот из браузера </em>
 </p>
 <br>
-[Исходный код](https://github.com/Ollrins/Terraform-the-end/tree/main/src "Ссылка на GitHub")
+(https://github.com/Ollrins/Terraform-the-end/tree/main/src "Ссылка на GitHub")
 
 <br><br><br><br><br>
 
