@@ -20,7 +20,12 @@ FastAPI-приложение
   <em> Скриншот из браузера </em>
 </p>
 <br>
-[![GitHub](https://img.shields.io/badge/GitHub-Terraform--the--end-black?logo=github)](https://github.com/Ollrins/Terraform-the-end/tree/main/src)
+<a href="https://github.com/Ollrins/Terraform-the-end/tree/main/src" target="_blank"
+   style="display:inline-block;padding:10px 18px;background:#24292e;color:#fff;
+          text-decoration:none;border-radius:6px;font-family:sans-serif;
+          font-weight:600;font-size:14px;">
+  ★ Terraform-the-end на GitHub
+</a>
 
 <br><br><br><br><br>
 
