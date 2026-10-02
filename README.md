@@ -20,7 +20,7 @@ FastAPI-приложение
   <em> Скриншот из браузера </em>
 </p>
 <br>
-(https://github.com/Ollrins/Terraform-the-end/tree/main/src "Ссылка на GitHub")
+[![GitHub](https://img.shields.io/badge/GitHub-Terraform--the--end-black?logo=github)](https://github.com/Ollrins/Terraform-the-end/tree/main/src)
 
 <br><br><br><br><br>
 
